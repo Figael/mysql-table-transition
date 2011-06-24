@@ -1,0 +1,22 @@
+It's nightmare to transit data of table from old to new one.
+How to distinguish the tables is a big problem even you have documented it well.So I try to make it easy and controllable.
+
+#First,
+edit db.php, fill your db config.
+
+#sencond,
+put those files into where your webserver can parse and watch it with url.
+
+
+And Enjoy!
+
+
+Note:
+
+Column Original:
+if Ultimate Field doesn't existed in Original Table, Column 'Original Table In Green，Ultimate Table In Red' would display only green parts and Column 'Function' appears for function.Or you can choose Original Field only if the function's value of the same line is '#' as default.
+else column 'Original Field' would display option selector and checkbox formula,when u make formula checked, the option selecter failed, you should write the php function to transit data.
+
+Hope it be helpful.
+
+Any question, mail me: figael@gmail.com
