@@ -47,11 +47,11 @@ code
 <div style="border:2px dashed #990033;" id='result'>
 For PHP array<br />
 &nbsp;&nbsp;&nbsp;
-&nbsp;<font color=red><strong>array('a'=>1,'b'=>array('c'=>1)):</strong></font></font>
+&nbsp;<font color=red><strong>return array('a'=>1,'b'=>array('c'=>1));</strong></font></font>
 
 <font color=red><strong></strong></font><br />
 EG:<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<textarea style="background-color:#CCCC66;color:red;">'a'=>1,'b'=>array('c'=>1)</textarea><br />
+&nbsp;&nbsp;&nbsp;&nbsp;<textarea style="background-color:#CCCC66;color:red;"  cols ="35" rows = "3">return array('a'=>1,'b'=>array('c'=>1));</textarea><br />
 </div>
 </td>
 </tr>
