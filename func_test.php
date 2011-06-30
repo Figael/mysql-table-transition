@@ -3,11 +3,11 @@ require_once 'db.php';
 
 try
 {
-    //创建参数
+    //create param
     $param = $_POST['a'];
-    $pr = create_function('$q', '{ return array(' . $param . ');}');
+    $pr = create_function('$q', '{ ' . $param . ';}');
     
-    //创建代码
+    //create function
     $code = $_POST['c'];
     $func = create_function('$a', '{  ' . $code . ' }');
     
